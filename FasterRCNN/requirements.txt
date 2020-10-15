@@ -1,0 +1,9 @@
+faster_rcnn.egg==info
+torch==1.6.0
+scipy==1.2.1
+torchvision==0.7.0
+matplotlib==3.1.3
+numpy==1.18.1
+lxml==4.5.0
+Pillow==7.2.0
+pycocotools==2.0.2
