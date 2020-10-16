@@ -52,8 +52,8 @@ python -m torch.distributed.launch --nproc_per_node=8 --use_env train.py --model
   --lr-steps 16 22 --aspect-ratio-group-factor 3
 ```
 
-<img src="https://github.com/amazingcodeLYL/FasterRCNN/blob/master/picture/loss_and_lr.png" width="50%" height="50%" >
-<img src="https://github.com/amazingcodeLYL/FasterRCNN/blob/master/picture/mAP.png" width="50%" height="50%"  >
+<img src="https://github.com/amazingcodeLYL/DeepLearning_CV/blob/main/FasterRCNN/picture/loss_and_lr.png" width="50%" height="50%" >
+<img src="https://github.com/amazingcodeLYL/DeepLearning_CV/blob/main/FasterRCNN/picture/mAP.png" width="50%" height="50%"  >
 
 
 ## Result
@@ -80,4 +80,4 @@ python -m torch.distributed.launch --nproc_per_node=8 --use_env train.py --model
 | vgg16|0.241|0.546|0.165|0.085|0.175|0.277|100|
 | vgg11 | 0.088| 0.236 | 0.039 |0.005 |0.047 |0.110|100|
 
-<img src="https://github.com/amazingcodeLYL/FasterRCNN/blob/master/picture/img.jpg" width="50%" height="50%" style="float:right;" >
+<img src="https://github.com/amazingcodeLYL/DeepLearning_CV/blob/main/FasterRCNN/picture/img.jpg" width="50%" height="50%" style="float:right;" >
